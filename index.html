@@ -2,30 +2,165 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="footer, address, phone, icons" />
     <title>Paradigm Droning </title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/0ea6d6a1bf.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS only -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 <body>
 
-<!--header-->
-<header class ="header">
-    <div class="container nav-section">
-        <div  class = "brand-and-navBtn">
-            <span class = "brand-name">
-                Paradigm Droning
-            </span>
-            <span class-="navBtn flex">
-                <i class=" fas fa-bars"></i>
-            </span>
+
+<!- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Paradigm Droning</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--hero image-->
+<div class="container-fluid">
+
+
+    <div class="image-container">
+
+        <div class="inner-container m-auto">
+            <h1 class="title"> Paradigm Droning</h1>
+            <a class="header-btn" href="#"> Contact us!</a>
+        </div>
+    </div>
+<!-- services -->
+
+    <div class="card-group">
+        <div class="card">
+            <img src="#" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Droning</h5>
+                <p class="card-text"></p>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="#" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Photography</h5>
+                <p class="card-text"></p>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="#" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> Hobbies</h5>
+                <p class="card-text"></p>
+
+            </div>
+        </div>
+    </div>
+   <!-- contact form -->
+    <div class="contact-section">
+        <h1> Connect with Paradigm Droning!</h1>
+
+        <form class="contact-form" action="index.html" method="post">
+            <input type="text" class="contact-form-text" placeholder="Your name">
+            <input type="email" class="contact-form-text" placeholder="Your email">
+            <input type="text" class="contact-form-text" placeholder="Your phone">
+            <textarea class="contact-form-text" placeholder="Your message"></textarea>
+            <input type="submit" class="contact-form-btn" value="send">
+
+        </form>
+    </div>
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>Paradigm<span> Droning</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Portfolio</a>
+                ·
+                <a href="#"></a>
+                ·
+                <a href="#">About</a>
+                ·
+                <a href="#">Contact</a>
+            </p>
+
 
         </div>
 
-        <!-- Nav Menu -->
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>asdfasdfasd</span> Albuquerque, New Mexico</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>505-347-1031</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">Kyle@paradimedroning.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>Follow on Social Media </span>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+
+            </div>
+
+        </div>
+        <div class="company-name">
+            <p class="footer-company-name">Cultlyfe &copy; 2020</p>
+        </div>
+
+    </footer>
 
 
-    </div>
-</header>
+
+
+
+
+
 
 </body>
 </html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
